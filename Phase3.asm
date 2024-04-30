@@ -1,8 +1,8 @@
 .data
-prompt:             .asciiz "Enter the amount of money: "
-select:             .asciiz "Select an item (1 for Water, 2 for Snacks, 3 for Sandwiches, 4 for Meals, -1 to exit): "
+prompt:                 .asciiz "Enter the amount of money: "
+select:                 .asciiz "Select an item (1 for Water, 2 for Snacks, 3 for Sandwiches, 4 for Meals, -1 to exit): "
 insufficient_balance:   .asciiz "Insufficient balance. Please enter another option."
-remaining_balance:  .asciiz "Remaining balance: $"
+remaining_balance:      .asciiz "Remaining balance: $"
 
 .text
 .globl main
